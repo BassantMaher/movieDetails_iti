@@ -29,10 +29,11 @@ function Details() {
                     <div className="content">
                         <div className="name">{movie.title}</div>
                         <div className="des">{ movie.overview}</div>
+                        <Link className="btn" to='/'>Back</Link>
                     </div>
                 </div>
             </div>
-            <Link className="btn" to='/'>Back</Link>
+            
         </div>
     );
 }
